@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.bigger-container {
+  height: 100vh;
+  background: lightgrey;
+  border: dashed 4px grey;
+}
+
+.container {
+  background-color: red;
+  border: solid 4px coral;
+  display: flex;
+}
+
+.child {
+  height: 50px;
+  width: 50px;
+  border: grey solid 2px;
+  background-color: orange;
+}
+
+.toys {
+  text-align: right;
+  color: white;
+  background-color: brown;
+}
+
+#example-child {
+  display: inline;
+}
+
+#example-toy {
+  border: solid 2px black;
+  text-align: center;
+  color: teal;
+}
+
+.inline {
+  /* display: inline; */
+  border: solid blue 2px;
+}
+
+.inline-block {
+  /* display: inline-block; */
+  border: solid green 2px;
+}
